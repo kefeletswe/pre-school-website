@@ -2,6 +2,18 @@
 padding: 0%;
 font-family: Oswald, sans-serif;
 }
+/*headings and logos*/
+h1, h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkgreen;
+}
+#logo{float: left;
+    font-size: 250%;
+
+
+}
 header{background-image: url(../chichi/images/kids-image.jpg);
     height: 100vh;
     background-size: cover;
