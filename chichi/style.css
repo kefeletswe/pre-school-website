@@ -12,13 +12,8 @@ h1, h2{
 #logo{float: left;
     font-size: 250%;
     margin-left: 20px;
-
-
 }
-header{background-image: url(../chichi/images/kids-image.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+
 
 }
 #logo{line-height: 160%;
@@ -33,11 +28,11 @@ ul li{display: inline-block;
 }
 ul li a{
     text-decoration: none;
-    color: white;
+    color: blue;
     padding: 5px 20px;
-    border: 1px, solid,white;
+    border: 1px, solid, black;
     transition: 0.8s ease;
 }
-ul li a:hover{background-color:green ;
+ul li a:hover{background-color:darkblue ;
     color: black;}
 
