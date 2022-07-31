@@ -2,30 +2,36 @@
 margin: 0%;
 padding: 0%;
 box-sizing: border-box;
-font-family: Oswald, sans-serif;
 }
-/*headings and logos*/
 
-ul{
-    overflow: hidden;
-    background-color: #1e90ff;
-}
-ul li{
-    float: left;
-    font: 13px;
-    color: #fff;
+<!--add image propetie in the body-->
+
+body {
+    background-position: center;
+    
+    font-family: Oswald, sans-serif;}
+/* /*headings and logo */
+
+.navlist{background: rgb(0, 100, 0);
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    list-style-type: none ;}
-
-li a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 20px;
-    border: 1px, solid,white;
-    transition: 0.8s ease;
 }
-ul li a:hover{background-color:green ;
+
+.navlist ul{
+     display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.navlist ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.navlist ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover{background-color: #fff ;
     color: black;}
 
