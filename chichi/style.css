@@ -28,7 +28,7 @@ body {
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     transition: 0.6s ease;
 
 }
@@ -36,8 +36,12 @@ body {
 ul li a:hover{background-color: #fff ;
     color: black;}
 
-    ul li .active a{background-color: #fff ;
+    ul li.active a{background-color: #fff ;
         color: black;
 
+    }
+    .position{
+    text-align: left;
+    justify-content: center;
     }
 
