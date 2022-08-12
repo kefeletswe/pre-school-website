@@ -5,12 +5,6 @@ box-sizing: border-box;
 }
 
 
-.logo{float: left;
-    width: 150px;
-    height: auto;
-
-}
-
 body {
     background-position: center;
     
@@ -18,8 +12,7 @@ body {
 /* /*headings and logo */
 
 .navlist{background: rgb(0, 100, 0);
-    text-align: center;
-}
+    text-align: right;}
 
 .navlist ul{
      display: inline-flex;
@@ -30,9 +23,6 @@ body {
 
 .navlist ul li{
     display: inline-block;
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
 }
 .navlist ul li a{
     text-decoration: none;
@@ -45,4 +35,9 @@ body {
 
 ul li a:hover{background-color: #fff ;
     color: black;}
+
+    ul li .active a{background-color: #fff ;
+        color: black;
+
+    }
 
