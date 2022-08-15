@@ -11,14 +11,12 @@ body {
 }
 
 /* /*headings and logo */
+
 .position {
-    float: left;
-
+    text-align: left;
+    text-decoration: none;
 }
-#position, #navlist{
-    line-height: 50px;
 
-}
 /* /*navigation links */
 .navlist {
     background: rgb(0, 100, 0);
@@ -55,11 +53,16 @@ ul li.active a {
     color: black;
 
 }
-
-
-#kids-image
-{height: 600px;
-    width: 300%;
-    background: url('../chichi/images/kids-image.jpg') no-repeat;
+.info{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.info h1{color: green;
+    font-family: lato;
+    font-size: 60px;
 
 }
+
+
