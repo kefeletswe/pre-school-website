@@ -11,7 +11,16 @@ body {
 }
 
 /* /*headings and logo */
+.position {
+    float: left;
+    justify-content: center;
 
+}
+#position, #navlist{
+    line-height: 75px;
+
+}
+/* /*navigation links */
 .navlist {
     background: rgb(0, 100, 0);
     text-align: right;
@@ -48,7 +57,3 @@ ul li.active a {
 
 }
 
-.position {
-    float: left;
-    justify-content: center;
-}
