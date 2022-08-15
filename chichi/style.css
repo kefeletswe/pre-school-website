@@ -13,11 +13,10 @@ body {
 /* /*headings and logo */
 .position {
     float: left;
-    justify-content: center;
 
 }
 #position, #navlist{
-    line-height: 75px;
+    line-height: 50px;
 
 }
 /* /*navigation links */
@@ -57,3 +56,10 @@ ul li.active a {
 
 }
 
+
+#kids-image
+{height: 600px;
+    width: 300%;
+    background: url('../chichi/images/kids-image.jpg') no-repeat;
+
+}
