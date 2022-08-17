@@ -120,7 +120,7 @@ button:hover{
     border: none;
 }
 /* /*headings and logo */
-.business-roles{background: green;
+.team{background: green;
     font-family: sans-serif;
 
 }
@@ -191,34 +191,67 @@ button:hover{
     width: 80%;
     margin: auto;
 }
-.content-box h2{
+.content-box>h2{
     text-align: center;
     margin: 20px;
     color: lightcoral;
-    margin: 20px;
+    
 }
-.content-box h2::before, .content-box h2::after{
-    content: "..........";
-    letter-spacing: -4px;
+.content-box>h2::before, .content-box>h2
+{
+content: "..........";
+letter-spacing: -4px;
     margin: 0 10px;
 }
-
-
 .content-box .row{
     display: flex;
     justify-content: space-between;
+    
 }
+
 .content-box .column{
     width: 32%;
     height: auto;
-    position: relative;
+    position: relative;}
+
+ .content-box img{
+     width: 100%;
+     height: auto; 
 }
 
-.content-box img{
+
+
+
+
+.content-box .column a:last-child{
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 0;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    background: #ff8800c3;
+    text-align: center;
+    line-height: 35vw;
+    font-size: 3vw;
 }
-.content-box .column
+.content-box .column:hover a:last-child{
+    height: 100%;
+    top: 0;
+}
+
+    @media (max-width: 600px){}
+.content-box .row{flex-direction:column
+}
+.content-box .column{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.content-box .column a:last-child{
+    line-height: 80vw;
+    font-size: 6vw;
+}
 /* /*our services */
 
 .profile{background: #fff;
