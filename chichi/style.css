@@ -58,10 +58,9 @@ ul li.active a {
 
 /*i images */
 
-.photo{
-    width: 100%;
-    height: 600px;
-    background:url('../chichi/images/istockphoto-544351338-612x612.jpg') no-repeat top center;
+.kids-image{
+    
+    background:url('chichi/images/istockphoto-544351338-612x612.jpg') no-repeat center center;
 
 }
 
@@ -168,7 +167,8 @@ button:hover{
     margin: 12px 0;
 
 }
-.team.team_member_ .team_img{
+
+.team .team_member .team_img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -176,12 +176,14 @@ button:hover{
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    background: #fff;
+    background: lightgrey;
+    box-sizing: url(../chichi/images/attempt1.png) no repeat top center;
+
 }
 
 .team .team_member .team_img img{
     width: 100px;
     height: 100px;
-    padding: 10px;
+    padding: 2px;
 }
 /* /*headings and logo */
