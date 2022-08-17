@@ -321,12 +321,7 @@ letter-spacing: -4px;
 
 }
 
-.services .all-services h3{
-    
-    color: aquamarine;
-    font-size: 26px;
 
-}
 
 .services .all-services:before{
     content: '';
@@ -341,3 +336,34 @@ letter-spacing: -4px;
     transition: 0.5s;
 }
 
+.services .all-services:hover::before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: 0.5s;
+
+}
+
+.services .all-services h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    transition: 0.5s;
+    color: #333;
+    
+
+}
+
+.services .all-services:hover h3,
+.services .all-services:hover p{
+    opacity: 1;
+    color: #fff;
+    transform: translateY(-40px);
+
+}
+.services .all-services p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5ss;
+
+}
