@@ -293,30 +293,51 @@ letter-spacing: -4px;
     margin-top: 10%;
 
 }
-.services{
-    text-align: center;
-    width: auto;
+.profile{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#0f4675,#0f4675 50%,#fff 50%,#fff 100%)
     
     
+}
+
+.services{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .services .all-services{
     
-    background: blueviolet;
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: black;
     position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
 
 }
+
 .services .all-services h3{
     
     color: aquamarine;
     font-size: 26px;
 
+}
+
+.services .all-services:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff226d;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.5s;
 }
 
