@@ -1,108 +1,199 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+KINDERGARTEN KIDS (pre-school website)
 
-Welcome kefeletswe,
+The pre-school website is a website for where parents can register, login or access information about the kindergarten kids school.This school is for parents who have children from ages 6months to 6 years old.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+In this website parents will be able to find out who works at the school, what facilities the school has,location,contact details and which curriculum is being is offered.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+FEATURES INCLUDE:
 
-`python3 -m http.server`
+Navigation bar;  this is located at the top of the page where the user can be able to find the school name on the left, the Home,About, Facilities and Login form easily.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+Header;   on this section the user is able to simple and relevant information about the name of the school, location, age group and the type of education offered. 
+Below thst the user can find a register now navbar which hovers green when clicked.The hover effect is not working at the moment. The color 3 colors on the register nav blend in well together.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+The hearder  has a background image of a teacher with a child. This is to make the page attractive, relevant and easy to understand before even reading the page contents. It has a description incase the page does not load up.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+![Screenshot (21)](https://user-images.githubusercontent.com/109689817/185520853-b173a190-9627-4db3-bb91-93d5adfd90f8.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ABOUT 
+The about section of the page gives users more information about the schools curriculum, mission and vison statements. It also provides  the user with relevant information about the employees.This section has a hover effet when the user hovers over the words curriculum, vision and mission. The colors chosen blend in well with this page.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Screenshot (22)](https://user-images.githubusercontent.com/109689817/185521662-73e44855-2616-4135-8040-53fd218dc397.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Team
+Here the user will find staff members qualifications and their pictures
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Screenshot (23)](https://user-images.githubusercontent.com/109689817/185521744-12f4d405-4f68-4e5e-b0e5-bfec44c78168.png)
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+FACILITIES
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+This section shows the user the facilities availbabe if they enroll their childrent at the school. It has images of  an outdoor playground, music room, fancy classroom and 24/7 CCTV camera.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+
+![Screenshot (24)](https://user-images.githubusercontent.com/109689817/185522477-ac21aef1-8fc4-4093-afe7-9d0199368c8a.png)
+
+
+![Screenshot (25)](https://user-images.githubusercontent.com/109689817/185522503-b209759d-c237-4d99-aaff-b7e03890072f.png
+
+
+
+
+
+
+
+
+
+
+FORM
+The user can be able to register or log in if they already have an account with the school. This also has a remeber password click button but unfortunatley it does not work. The  form button hovers on the words register and login ahave a smooth transition.
+
+The user can also find the schools social media links, contact number and location icons.
+
+
+
+FOOTER
+The schools copy right and contact details can be found here. The footer is currently in the form section.
+
+
+
+
+TESTING
+
+I have tested that this website works in different browsers such as safari, chrone and Firefox.
+
+I confirmed that the header, navigation, about, team, facilities and login are readable and easy to understand.
+
+I have confirmed that some of the features in the website are responsive and work on all screen sizes. The home bar, and about us section are not responsive to different screen sizes.
+
+I confirm that not all the features of the form are working.
+
+
+
+
+
+
+PROBLEMS
+ 
+
+Kindergarten name located on the top-right corner was underlined. I solved this by adding the <a> element before the div instead of inside the heading_area div.
+
+The background image on the header could not fill in the whole page. Tis was because the CSS width was in px instead of % percentage
+could not zoom out image
+ 
+
+
+![Screenshot (15)](https://user-images.githubusercontent.com/109689817/185539409-ef7f2139-358f-4fef-901c-191a743173dd.png)
+  
+  
+
+
+ Team member images did not look the way code is meant to be.
+ I had to edit pictures into oval shape before adding them into image folder and also had to remove an extra dash (-)sign on the css  file.
+  
+  
+
+![Screenshot (20)](https://user-images.githubusercontent.com/109689817/185541112-0c9821cf-9729-45ea-9042-92c1c5d2bfff.png)
+  
+  
+  
+
+![Screenshot (23)](https://user-images.githubusercontent.com/109689817/185541147-ec9cc01b-b6d6-4297-858f-413bab43843f.png)
+  
+  
+  
+  
+BUGS
+
+
+No bugs were found on this website.
+
+
+
+VALIDATION TESTING
+
+HTML
+9 errors were found in W3C Validator
+
+CSS
+7 errors were fmade ound on (Jigsaw validator)
+ 
+ 
+ LIGHTHOUSE
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+![Screenshot (26)](https://user-images.githubusercontent.com/109689817/185546496-995f2eb8-cf63-4e0a-8737-5cd28013ea13.jpg)
+ 
+ 
+ 
+ 
+ 
+ 
+
+ UNFIXED BUGS
+ 
+ No unfixed bugs
+
+DEPLOYMENT
+This site was deployed to GitHub pages. The steps are as followers;
+In the GitHub repositor navigate to the settings tab, from the source section drop down menu select the Master branch once completed the  page provided the link to the completed website.
+  
+  
+
+CREDITS
+
+Content 
+The code for the home page and navigation bar is from https://www.youtube.com/watch?v=HAsb2DNR7P4&t=1255s
+The code for the About us is fromhttps://www.youtube.com/watch?v=FpuJiNyDsC8
+The code for the Facilities is from https://www.youtube.com/watch?v=QmZNFnqwu74&t=199s
+The code for the Team is from https://www.youtube.com/watch?v=qYWYEnw1zTI&t=366s
+The code for the Login form  is from https://www.youtube.com/watch?v=NXAHkqiIepc&t=0s
+
+
+Media
+The code for social media images is from https://pixabay.com/
+The code for images is from https://pixabay.com/
+
+
+
+
+
