@@ -93,6 +93,10 @@ a {
     width: 35%;
 }
 
+.top-logo { color: yellow;
+
+}
+
 .navlist ul {
     display: flex;
     list-style: none;
@@ -387,7 +391,7 @@ ul li.active a {
     height: 480px;
     position: relative;
     margin: 6% auto;
-    background-color: aqua;
+    background-color: greenyellow;
     padding: 5px;
     overflow: hidden;
 
