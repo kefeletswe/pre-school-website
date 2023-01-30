@@ -3,7 +3,7 @@
 /*body*/
 * {
     margin: 0%;
-    padding: 0%;
+    padding-top: 50%;
     box-sizing: border-box;
 }
 
@@ -114,7 +114,7 @@ a {
     padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.3s ease;
-    font-family: cursive;
+    font-family: sans-serif;
 
 
 }
@@ -128,6 +128,22 @@ ul li.active a {
     background-color: #fff;
     color: black;
 
+}
+
+/*second page */
+
+.second-page{
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+
+}
+
+.thumbnail{
+    width: 30px;
+    
 }
 
 /*about us or services */
@@ -299,7 +315,7 @@ ul li.active a {
 /* /*our facilities */
 
 .facility {
-    background-color: darkgrey;
+    background-color: yellow;
     margin-bottom: 2%;
     margin-top: 2%;
 
@@ -332,25 +348,9 @@ ul li.active a {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 5rem;
 
-
 }
 
-.facility .content-box .row .pic .overlay {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-    background-color: rgba(0, 0, 0, .7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transform: translateY(-40rem)
-}
+
 
 .facility h2 {
     font-size: 52px;
@@ -364,22 +364,7 @@ ul li.active a {
     color: black;
 }
 
-.facility .content-box .row .pic .overlay h3 {
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 1rem;
-}
 
-.facility .content-box .row .overlay span {
-    font-size: 1.5rem;
-    color: var(--gray);
-
-
-}
-
-.facility .content-box .row:hover .pic .overlay {
-    transform: translateY(0)
-}
 
 /*form*/
 
