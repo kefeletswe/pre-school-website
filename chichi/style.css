@@ -315,9 +315,8 @@ ul li.active a {
 /* /*our facilities */
 
 .facility {
-    background-color: yellow;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    background-color: grey;
+    
 
 
 }
