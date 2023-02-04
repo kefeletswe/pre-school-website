@@ -16,6 +16,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     
 }
 .right_navlist{
@@ -28,6 +32,7 @@ a {
     list-style: none;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .right_navlist ul li{
@@ -53,13 +58,7 @@ ul li.active a {
 
 }
 
-.top-bar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
 
-}
 
 .heading_area a {
     display: flex;
@@ -72,7 +71,16 @@ ul li.active a {
     font-family: sans-serif;
     margin-left: 10px;
 }
-/*second page */
+/*middle of the home page  */
+
+
+.middle_info {
+    text-align: center;
+    margin-top: 160px;
+
+}
+.
+
 
 /*about us or services */
 
