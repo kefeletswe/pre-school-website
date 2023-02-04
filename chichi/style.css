@@ -1,6 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
 
 /*body*/
+/*logo area and navigations*/
+a {
+    text-decoration: none;
+}
+.top_kids{
+    color: yellow;
+}
+
+.top-bar{
+    width: 100%;
+    height: 100px;
+    background: #0f4675;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.right_navlist{
+    width: 45%;
+}
+
+.right_navlist ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right_navlist ul li{
+    display: inline-block;
+}
+
+.right_navlist ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: black;
+
+}
+
+.top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.heading_area a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading_area a h1 {
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
 /*second page */
 
 /*about us or services */
