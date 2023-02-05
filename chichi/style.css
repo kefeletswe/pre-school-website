@@ -17,6 +17,7 @@ a {
     width: 100%;
     height: 100px;
     background: #0f4675;
+    font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,9 +78,6 @@ ul li.active a {
 }
 /*middle of the home page  */
 
-
-
-
 .middle_info {
     
     text-align: center;
@@ -112,6 +110,20 @@ ul li.active a {
 
 
 /*about us or services */
+.company_stats{
+    background-color: azure;
+    margin-bottom: 1%;
+}
+
+.more_stats{
+    text-align: justify;
+}
+
+.servive_offers{
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+}
 
 /* /*our team*/
 
