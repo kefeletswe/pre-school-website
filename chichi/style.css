@@ -111,8 +111,10 @@ ul li.active a {
 
 /*about us or services */
 .company_stats{
-    background-color: azure;
-    margin-bottom: 1%;
+    
+    
+    
+    
 }
 
 .more_stats{
@@ -120,10 +122,29 @@ ul li.active a {
 }
 
 .servive_offers{
-    background-color: aqua;
+    
     display: grid;
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    
+    
+
+    
+    
 }
+.light, .phone ,.hours{
+    
+    background-color: antiquewhite;
+    color: black;
+    font-family: sans-serif;
+    
+}
+.dark ,.open ,.age{
+    background: lightgray;
+    color: black;
+    font-family: sans-serif;
+}
+
+
 
 /* /*our team*/
 
