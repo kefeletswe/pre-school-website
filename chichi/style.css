@@ -109,11 +109,11 @@ ul li.active a {
 }
 
 
-/*about us or services */
+/*this has all the relevant info about the company, added some grid to enhace the look*/
 .company_stats{
-    
-    
-    
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 95px; 
     
 }
 
@@ -124,13 +124,9 @@ ul li.active a {
 .servive_offers{
     
     display: grid;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px;
-    
-    
-
-    
-    
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;  
 }
+
 .light, .phone ,.hours{
     
     background-color: antiquewhite;
@@ -145,10 +141,59 @@ ul li.active a {
 }
 
 
-
 /* /*our team*/
+/* /*our team*/
+.our_team{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+    height: 200%;
+    
+    
+
+    
+}
+
+.employee_section_1{
+    width: 350px;
+
+}
+
+
+.employee_section_2{
+    width: 350px;
+
+}
+
+
+.employee_section_3{
+    width: 350px;
+
+}
+.role_1 , .role_2 , .role_3{
+    display: block;
+    
+
+}
+
+.para_1, .para_2, .para_3{
+    display: block;
+    
+}
+
 
 /*form*/ 
+
+.details{
+    margin-top: 100px;
+}
 
 
 
