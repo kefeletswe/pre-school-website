@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
 
 /*body*/
+body{
+    margin: 0%;
+    padding: 0%;
+}
 /*logo area and navigations*/
 a {
     text-decoration: none;
@@ -17,9 +21,9 @@ a {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
     
 }
 .right_navlist{
@@ -74,19 +78,44 @@ ul li.active a {
 /*middle of the home page  */
 
 
+
+
 .middle_info {
+    
     text-align: center;
-    margin-top: 160px;
+    margin-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../chichi/images/computer.jpg);
+    background-size: cover;
+    font-family: Oswald, sans-serif;
+    background-position: center;
+
+    
 
 }
-.
+
+
+
+.middle_info h1 {
+    color: #fff;
+    font-family: lato;
+    font-size: 35px;
+
+}
+
+.middle_info p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
 
 
 /*about us or services */
 
 /* /*our team*/
 
-/*form*/
+/*form*/ 
 
 
 
