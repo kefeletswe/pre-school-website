@@ -142,7 +142,7 @@ ul li.active a {
 
 
 
-/* /*our team*/
+/* /*page 3 contains info about employees responsibilities*/
 .our_team{
     background-color: beige;
     display: flex;
@@ -153,12 +153,7 @@ ul li.active a {
     margin-bottom: 1%;
     padding-top: 20%;
     padding-bottom: 20%;
-
-    height: 200%;
-    
-    
-
-    
+    height: 200%;  
 }
 
 
@@ -166,7 +161,6 @@ ul li.active a {
     width: 300px;
 
 }
-
 
 .employee_section_2{
     width: 300px;
@@ -189,12 +183,14 @@ ul li.active a {
 }
 
 
-
-
 .para_1, .para_2, .para_3 {
     display: block;
     text-align: justify;    
 }
+
+/*facilities*/ 
+
+
 
 
 
